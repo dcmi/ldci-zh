@@ -7,5 +7,5 @@
 [Stuart Sutton](https://github.com/stuartasutton) <br>
 
 Links
-* [Issues](https://github.com/dcmi/ldci/issues)
-* [Pull requests](https://github.com/dcmi/ldci/pulls)
+* [Issues](https://github.com/dcmi/ldci-zh/issues)
+* [Pull requests](https://github.com/dcmi/ldci-zh/pulls)
