@@ -1,22 +1,22 @@
-### Writing effective competencies and benchmarks
+### 撰写有效的“能力”和“基准”
 
-| Competencies (understanding) | Benchmarks (doing) |
+| 能力 (理解) | 基准 (实施) |
 | ------------------- | --------------- |
-| Understands         | Uses            |
-| Knows               | Expresses       |
-| Recognizes          | Demonstrates    |
-| Differentiates ...  | Converts ...    |
+| 理解         | 使用                   |
+| 知道         | 表达                   |
+| 认识         | 演示                   |
+| 区分 ...     | 转换 ...               |
 
-1. Begin each competency or benchmark with an action verb.  Competencies start with verbs related to understanding. Benchmarks start with verbs about doing.
+1. 每个能力或基准都以一个行为动词开始。能力以与理想相关的动词开始。基准以关于实施的动词开始。
 
-1. Limit each competency or benchmark to one sentence of circa 140 characters, the length of a Twitter posting.  If a thought seems to require more words, consider splitting it into two simpler thoughts.
+1. 将每个能力或基准限制在一个大约140个字符的句子中，即Twitter发布的长度。如果有需要更多的文字来表达的想法，那么考虑将想法分解成两个简单一点的。
 
-1. Spell out acronyms at least once.  Use your judgement.  In a competency index about Linked Data, frequently used acronyms such as _OWL_ and _URI_ need only be spelled out once: _Knows Web Ontology Language, or OWL (2004), an RDF vocabulary of properties and classes that extend support for expressive data modeling and automated inferencing (reasoning)._  
+1. 至少能拼写出一次缩写。在关于关联数据的能力指标中常用的缩略语如 _OWL_和 _URI_只需要拼写出一次即可：_了解Web本体语言，OWL（2004），RDF词汇表中的属性和类，这些属性和类能够支持数据模型的表达和自动推理。_  
 
-1. Include historical context if possible.  Linked Data technology has largely evolved over the past quarter century and continues to evolve.  Knowing the year when a technology or concept was introduced helps readers, for example: _World Wide Web (1989)_, _HTTP (1991+)_, _URIs (1994)_, _OWL (2004)_, and _Linked Data (2006)_.
+1. 应尽可能的包括各项技术的背景介绍。链接数据技术在过去的四分之一世纪里得到了很大的发展并将继续发展。了解当年的技术或概念的引入可以帮助到读者，例如： _万维网(1989)_, _HTTP (1991+)_, _URIs (1994)_, _OWL (2004)_, and _关联数据(2006)_.
 
-1. Include enough detail to characterize the nature of competency in a domain.  Competencies and benchmarks should not aim at covering all features of a technology, in the manner of a reference manual.  Attempts at comprehensiveness risk making the CI brittle in the face of inevitable change, and they risk making the CI boring to read.
+1. 应包括足够的细节来描述一个领域“能力”的本质。能力和基准不需要像参考手册手册那样覆盖技术的所有特征。如果进行全方位的试验，CI很有可能将很难适应一些不能避免的改变，并且CI读起来会非常的枯燥乏味。
 
-1. Draw attention to ambiguity in the definition or use of terminology.  For example, one competency reads: _Knows that the word "ontology" is ambiguous, referring to any RDF vocabulary, but more typically a set of OWL classes and properties designed to support inferencing in a specific domain_.
+1. 需注意术语定义或使用中的歧义问题。例如， 一项“能力”中写道：_需要了解“ontology”有两种意思，一方面是指任意的RDF词汇表，但更常见的是指为特定领域设计的一组支持推理的OWL的类和属性_。
 
-1. Enlarge the set of topics covered by the index with prudence, bearing in mind that adding high-level topic cluster will broaden the scope of the index as a whole.  If new high-level topic clusters are proposed, however, consider whether they really fit into the scope of this particular competency index or, perhaps, imply the need for a second competency index with a different scope (for example, one focused on the design of Knowledge Organization Systems).
+1. 扩大指标所涵盖的主题集合时要非常谨慎，同时谨记增加高水平的主题集群将会扩大整个指数的范围。如果提议增加新的高水平主题集群，则要考虑它们是否真正适合特定的能力指标的范围，或者可能意味着需要处于不同范围的另外一种能力指标（例如，侧重于知识组织系统的设计）。

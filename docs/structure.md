@@ -1,22 +1,22 @@
-### Structure of the Competency Index
+### 能力指标的结构
 
-The Linked Data Competency Index exemplifies a broader class of documents for describing curriculum standards and learning objectives or outcomes.  There is no one standard way to formulate a competency index -- or competency framework, as they are sometimes called.  The range of subjects to be learned, and the requirements for learning, are too diverse to be normalized.  For the purposes of this index, the Competency Index Editorial Board devised the following structure:
+关联数据能力指标是描述课程标准、学习对象或学习结果的非常典型的比较宽泛的一类文档。没有一个标准方法来制订能力指标（有时被称为能力框架）。因为需要学习的科目的范围和学习的需求都非常的多样化，因此没办法进行规范化。根据指标的目的，能力指标编委会设计了以下结构：
 
-__Topics__.  A topic is a theme under which a set of competencies are grouped, such as _Designing RDF-based vocabularies_ and _Maintaining RDF vocabularies_.  Topics are grouped under higher-level topic clusters, such as _RDF vocabularies and application profiles_.  
+__主题__.  主题是将一组能力分组的主题，例如_设计基于RDF的词汇表_ 和 _维护RDF词汇表_。  主题被分组在更高级别的主题集群中， 如 _RDF词汇表和应用纲要_.  
 
-__Competencies__.  A competency is a brief phrase characterizing knowledge (facts, insights, habits of mind, or skills) that may be learned.  Competencies may be used as building blocks for constructing self-learning plans, university courses, or even entire curricula.  Under the topic _Querying RDF Data_, for example, one finds two competencies: 
+__能力__. 能力是一个简短的短语，描述可能学到的知识（事实、见解、习惯或技能）。能力可以作为制订自学计划、大学课程甚至整个课程的基石。例如，在主题 _查询RDF数据_, 可以找到两种能力： 
 
-> _Understands that a SPARQL query matches an RDF graph against a pattern of triples with fixed and variable values._
+> _理解一个SPARQL查询是用RDF图去匹配具有固定值和变量的三元组模式。_
 
-> _Understands the basic syntax of a SPARQL query._
+> _理解SPARQL查询的基本语法。_
 
-__Benchmarks__.  A benchmark is a brief phrase describing an action that can demonstrate accomplishment in a given competency.  If competencies are about learning, benchmarks are about doing.  Benchmarks may be used for devising homework assignments, exam questions, or self-testing checklists.  Under the competency _Understands the basic syntax of a SPARQL query_, for example, one finds three benchmarks:
+__基准__.  基准是一个简短的短语，用来描述在给定的能力范围中，可以证明任务完成的一个行为。如果能力是关于学习的，那么基准就是关于如何去做。基准可用于设计家庭作业、考试问题或自我测试清单。例如，基于能力 _理解SPARQL查询的基本语法_,需要找到三个基准：
 
-> _Uses angle brackets for delimiting URIs._
+> _使用尖括号来定义URI。_
 
-> _Uses question marks for indicating variables._
+> _使用问号来表示变量。_
 
-> _Uses PREFIX for base URIs._
+> _对基础URI使用前缀。_
 
-By design, the index does not classify competencies or benchmarks by level of difficulty and makes no assumptions about the background knowledge or skill set of learners.  This is because concepts that are comparatively easy for a library science student may be hard for a computer science student, and vice versa.  The index should also not be taken to imply an inherent order to the topics.
+根据设计，指标没有根据困难程度对能力或基准进行分类，也没有对学习者的知识背景或技能做出假设。这是因为对于图书馆学专业学生来说相对容易的概念对计算机科学学生来说可能是困难的，反之亦然。指标也不应用于对主题的固有顺序进行暗示。
 
