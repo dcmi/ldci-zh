@@ -61,17 +61,17 @@
     
         <ul>
         
-            <li><a class="toctree-l3" href="#a-fundamentals-of-resource-description-framework">A: Fundamentals of Resource Description Framework</a></li>
+            <li><a class="toctree-l3" href="#a-rdf">A: RDF（资源描述框架）基础</a></li>
         
-            <li><a class="toctree-l3" href="#a-fundamentals-of-linked-data">A: Fundamentals of Linked Data</a></li>
+            <li><a class="toctree-l3" href="#a">A: 关联数据基础</a></li>
         
-            <li><a class="toctree-l3" href="#a-rdf-vocabularies-and-application-profiles">A: RDF vocabularies and application profiles</a></li>
+            <li><a class="toctree-l3" href="#a-rdf_1">A: RDF词汇与应用纲要</a></li>
         
-            <li><a class="toctree-l3" href="#a-creating-and-transforming-linked-data">A: Creating and transforming Linked Data</a></li>
+            <li><a class="toctree-l3" href="#a-rdf_2">A: RDF数据的生成与转换</a></li>
         
-            <li><a class="toctree-l3" href="#a-interacting-with-rdf-data">A: Interacting with RDF data</a></li>
+            <li><a class="toctree-l3" href="#a-rdf_3">A: 与RDF数据的交互</a></li>
         
-            <li><a class="toctree-l3" href="#a-creating-linked-data-applications">A: Creating Linked Data applications</a></li>
+            <li><a class="toctree-l3" href="#a_1">A:  关联数据应用的开发</a></li>
         
         </ul>
     
@@ -97,11 +97,6 @@
             <li class="toctree-l1">
 		
     <a class="" href="../board/">Editorial Board</a>
-	    </li>
-          
-            <li class="toctree-l1">
-		
-    <a class="" href="../faq/">FAQ</a>
 	    </li>
           
         </ul>
@@ -145,350 +140,350 @@ View at: <a href="https://dcmi.github.io/ldci/D2695955/">https://dcmi.github.io/
 <table>
 <thead>
 <tr>
-<th>Code</th>
-<th>Type</th>
-<th>Definition</th>
+<th>代码</th>
+<th>类型</th>
+<th>定义</th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>A</td>
-<td>Topic Cluster</td>
+<td>主题簇</td>
 <td></td>
 </tr>
 <tr>
 <td>B</td>
-<td>Topic</td>
+<td>主题</td>
 <td></td>
 </tr>
 <tr>
 <td>C</td>
-<td>Competency</td>
-<td>Tweet-length assertion of knowledge, skill, or habit of mind.</td>
+<td>指标</td>
+<td>知识、技能与思维习惯的主张（140个字符的Tweet长度）。</td>
 </tr>
 <tr>
 <td>D</td>
-<td>Benchmark</td>
-<td>Action demonstrating accomplishment in related competencies.</td>
+<td>基准</td>
+<td>达成相关能力的行动。</td>
 </tr>
 </tbody>
 </table>
-<p>Note: Hover over a code to see its URI.  Click on a code to visit its full definition on the <a href="http://asn.desire2learn.com/resources/D2695955">Achievement Standards Network</a> website.</p>
-<h2 id="a-fundamentals-of-resource-description-framework"><a href="http://asn.desire2learn.com/resources/S2695991">A:</a> Fundamentals of Resource Description Framework</h2>
+<p>说明: 鼠标悬停在代码上可以看到URI. 点击代码可在网站 <a href="http://asn.desire2learn.com/resources/D2695955">Achievement Standards Network</a> 上访问其定义全文.</p>
+<h2 id="a-rdf"><a href="http://asn.desire2learn.com/resources/S2695991">A:</a> RDF（资源描述框架）基础</h2>
 <ul>
-<li><a href="http://asn.desire2learn.com/resources/S2696001">B:</a> Identity in RDF<ul>
-<li><a href="http://asn.desire2learn.com/resources/S2731548">C:</a> Knows that anything can be named with Uniform Resource Identifiers (URIs), such as agents, places, events, artifacts, and concepts.</li>
-<li><a href="http://asn.desire2learn.com/resources/S2742438">C:</a> Understands that a "real-world" thing may need to be named with a URI distinct from the URI for information about that thing.</li>
-<li><a href="http://asn.desire2learn.com/resources/S2742439">C:</a> Recognizes that URIs are "owned" by the owners of their respective Internet domains.</li>
-<li><a href="http://asn.desire2learn.com/resources/S2709286">C:</a> Knows that Uniform Resource Identifiers, or URIs (1994), include Uniform Resource Locators (URLs, which locate web pages) as well as location-independent identifiers for physical, conceptual, or web resources.</li>
+<li><a href="http://asn.desire2learn.com/resources/S2696001">B:</a> RDF中的标识<ul>
+<li><a href="http://asn.desire2learn.com/resources/S2731548">C:</a> 知道在RDF中所有东西（thing）通过唯一资源识别符URIs进行命名，例如，代理、地点、事件、物件与概念等。</li>
+<li><a href="http://asn.desire2learn.com/resources/S2742438">C:</a> 理解解现实世界中的东西可能需要通过URI来命名，这与关于事物的信息的URI并不是一回事。</li>
+<li><a href="http://asn.desire2learn.com/resources/S2742439">C:</a> 辨认URIs的归属，通过互联网域名的所有者来判断。</li>
+<li><a href="http://asn.desire2learn.com/resources/S2709286">C:</a> 知道唯一资源识别符URIs包括唯一资源定位符URLs（用来定位网页），以及与位置无关的物理资源、概念资源与网络资源识别符。</li>
 </ul>
 </li>
-<li><a href="http://asn.desire2learn.com/resources/S2696007">B:</a> RDF data model<ul>
-<li><a href="http://asn.desire2learn.com/resources/S2709296">C:</a> Knows the subject-predicate-object component structure of a triple.</li>
-<li><a href="http://asn.desire2learn.com/resources/S2709295">C:</a> Understands the difference between literals and non-literal resources.</li>
-<li><a href="http://asn.desire2learn.com/resources/S2709297">C:</a> Understands that URIs and literals denote things in the world ("resources") real, imagined, or conceptual.</li>
-<li><a href="http://asn.desire2learn.com/resources/S2709298">C:</a> Understands that resources are declared to be members (instances) of classes using the property rdf:type.</li>
-<li><a href="http://asn.desire2learn.com/resources/S2709299">C:</a> Understands the use of datatypes and language tags with literals.</li>
-<li><a href="http://asn.desire2learn.com/resources/S2709997">C:</a> Understands blank nodes and their uses.</li>
-<li><a href="http://asn.desire2learn.com/resources/S2710003">C:</a> Understands that QNames define shorthand prefixes for long URIs.<ul>
-<li><a href="http://asn.desire2learn.com/resources/S2710007">D:</a> Uses prefixes for URIs in RDF specifications and data.</li>
+<li><a href="http://asn.desire2learn.com/resources/S2696007">B:</a> RDF数据模型<ul>
+<li><a href="http://asn.desire2learn.com/resources/S2709296">C:</a> 知道一个三元组（triple）由“主语－谓语－宾语”组成。</li>
+<li><a href="http://asn.desire2learn.com/resources/S2709295">C:</a> 理解文本串资源（literal）与非文本串（non-literal）资源之间的差异。</li>
+<li><a href="http://asn.desire2learn.com/resources/S2709297">C:</a> 理解URIs和文本串（literal）代表现实的、想象的、概念化的事物。</li>
+<li><a href="http://asn.desire2learn.com/resources/S2709298">C:</a> 理解“资源”通过rdf:type属性来声明为某类（class）的成员（实例）。</li>
+<li><a href="http://asn.desire2learn.com/resources/S2709299">C:</a> 理解文本串的数据类型与语种标签的使用。</li>
+<li><a href="http://asn.desire2learn.com/resources/S2709997">C:</a> 解空节点（blank nodes）及其使用方法。</li>
+<li><a href="http://asn.desire2learn.com/resources/S2710003">C:</a> 理解QNames为长URIs定义了简易前缀。<ul>
+<li><a href="http://asn.desire2learn.com/resources/S2710007">D:</a> 在RDF规范和数据中为URIs使用前缀。</li>
 </ul>
 </li>
-<li><a href="http://asn.desire2learn.com/resources/S2731549">C:</a> Articulates differences between the RDF abstract data model and the XML and relational models.</li>
-<li><a href="http://asn.desire2learn.com/resources/S2731551">C:</a> Understands the RDF abstract data model as a directed labeled graph.</li>
-<li><a href="http://asn.desire2learn.com/resources/S2731552">C:</a> Knows graphic conventions for depicting RDF-based models.<ul>
-<li><a href="http://asn.desire2learn.com/resources/S2731553">D:</a> Can use graphing or modeling software to share those models with others.</li>
+<li><a href="http://asn.desire2learn.com/resources/S2731549">C:</a> 明白RDF抽象模型与XML相关的数据模型之间的区别。</li>
+<li><a href="http://asn.desire2learn.com/resources/S2731551">C:</a> 理解RDF抽象数据模型是一个有向标记图。</li>
+<li><a href="http://asn.desire2learn.com/resources/S2731552">C:</a>  知道RDF抽象模型的图形化绘制惯例。<ul>
+<li><a href="http://asn.desire2learn.com/resources/S2731553">D:</a> 能够使用绘图或建模软件与他人分享RDF模型。</li>
 </ul>
 </li>
-<li><a href="http://asn.desire2learn.com/resources/S2709875">C:</a> Understands a named graph as one of the collection of graphs comprising an RDF dataset, with a graph name unique in the context of that dataset.</li>
-<li><a href="http://asn.desire2learn.com/resources/S2731590">C:</a> Understands how a namespace, informally used in the RDF context for a namespace URI or RDF vocabulary, fundamentally differs from the namespace of data attributes and functions (methods) defined for an object-oriented class.</li>
+<li><a href="http://asn.desire2learn.com/resources/S2709875">C:</a> 理解RDF中的命名空间（namespace），非正式地用于命名空间URI或RDF词汇。这与面向对象中类的数据属性与功能（方法）的命名空间存在本质区别。</li>
+<li><a href="http://asn.desire2learn.com/resources/S2731590">C:</a> 理解用于RDF词表或命名空间URI的命名空间是如何用于RDF语境中，在功能上与面向对象类的属性和功能的命名空间的差别。</li>
 </ul>
 </li>
-<li><a href="http://asn.desire2learn.com/resources/S2696012">B:</a> Related data models<ul>
-<li><a href="http://asn.desire2learn.com/resources/S2731554">C:</a> Grasps essential differences between schemas for syntactic validation (e.g., XML) and for inferencing (RDF Schema).</li>
-<li><a href="http://asn.desire2learn.com/resources/S2731555">C:</a> Differentiates hierarchical document models (eg, XML) and graph models (RDF).</li>
-<li><a href="http://asn.desire2learn.com/resources/S2742440">C:</a> Understands how an RDF class (named set of things) fundamentally differs from an object-oriented programming class, which defines a type of object bundling "state" (attributes with data values) and "behavior" (functions that operate on state).</li>
+<li><a href="http://asn.desire2learn.com/resources/S2696012">B:</a> 相关数据模型<ul>
+<li><a href="http://asn.desire2learn.com/resources/S2731554">C:</a> 掌握语法验证用途（XML）和推理用途（RDF schema）在模式（schemas）上存在的本质区别。</li>
+<li><a href="http://asn.desire2learn.com/resources/S2731555">C:</a>  区分层级式文档模型（XML）与图模型（RDF）。</li>
+<li><a href="http://asn.desire2learn.com/resources/S2742440">C:</a> 理解RDF的类（事物命名集合）与面向对象编程的类的本质区别。面向对象编程的类定义了对象的类型，封装了“状态”（数据值的属性）与“行为”（对状态进行操作的函数）。</li>
 </ul>
 </li>
-<li><a href="http://asn.desire2learn.com/resources/S2696017">B:</a> RDF serialization<ul>
-<li><a href="http://asn.desire2learn.com/resources/S2709805">C:</a> Understands RDF serializations as interchangeable encodings of a given set of triples (RDF graph).<ul>
-<li><a href="http://asn.desire2learn.com/resources/S2731558">D:</a> Uses tools to convert RDF data between different serializations.</li>
+<li><a href="http://asn.desire2learn.com/resources/S2696017">B:</a> RDF 序列化<ul>
+<li><a href="http://asn.desire2learn.com/resources/S2709805">C:</a> 理解RDF序列号格式是一个给定三元组集合（RDF图）的交换编码格式。<ul>
+<li><a href="http://asn.desire2learn.com/resources/S2731558">D:</a> 使用工具在不同的RDF数据序列号格式之间互转。</li>
 </ul>
 </li>
-<li><a href="http://asn.desire2learn.com/resources/S2731556">C:</a> Distinguishes the RDF abstract data model and concrete serializations of RDF data.<ul>
-<li><a href="http://asn.desire2learn.com/resources/S2731557">D:</a> Expresses data in serializations such as RDF/XML, N-Triples, Turtle, N3, Trig, JSON-LD, and RDFa.</li>
-</ul>
-</li>
+<li><a href="http://asn.desire2learn.com/resources/S2731556">C:</a> 区分RDF抽象数据模型与具体的RDF数据的序列化格式。<ul>
+<li><a href="http://asn.desire2learn.com/resources/S2731557">D:</a> 用 RDF/XML, N-Triples, Turtle, N3, Trig, JSON-LD, and RDFa对RDF数据序列化表达。</li>
 </ul>
 </li>
 </ul>
-<h2 id="a-fundamentals-of-linked-data"><a href="http://asn.desire2learn.com/resources/S2695997">A:</a> Fundamentals of Linked Data</h2>
+</li>
+</ul>
+<h2 id="a"><a href="http://asn.desire2learn.com/resources/S2695997">A:</a> 关联数据基础</h2>
 <ul>
-<li><a href="http://asn.desire2learn.com/resources/S2696025">B:</a> Web technology<ul>
-<li><a href="http://asn.desire2learn.com/resources/S2742442">C:</a> Knows the origins of the World Wide Web (1989) as a non-linear interactive system, or hypermedia, built on the Internet.</li>
-<li><a href="http://asn.desire2learn.com/resources/S2742443">C:</a> Understands that Linked Data (2006) extended the notion of a web of documents (the Web) to a notion of a web of finer-grained data (the Linked Data cloud).</li>
-<li><a href="http://asn.desire2learn.com/resources/S2742444">C:</a> Knows HyperText Markup Language, or HTML (1991+), as a language for "marking up" the content and multimedia components of Web pages.</li>
-<li><a href="http://asn.desire2learn.com/resources/S2742445">C:</a> Knows HTML5 (2014) as a version of HTML extended with support for complex web and mobile applications.</li>
-<li><a href="http://asn.desire2learn.com/resources/S2742446">C:</a> Knows Hypertext Transfer Protocol, or HTTP (1991+), as the basic technology for resolving hyperlinks and transferring data on the World Wide Web.</li>
-<li><a href="http://asn.desire2learn.com/resources/S2742447">C:</a> Knows Representational State Transfer, or REST (2000) as a software architectural style whereby browsers can exchange data with web servers, typically on the basis of well-known HTTP actions.</li>
+<li><a href="http://asn.desire2learn.com/resources/S2696025">B:</a> 万维网（Web）技术<ul>
+<li><a href="http://asn.desire2learn.com/resources/S2742442">C:</a> 知道万维网（World Wide Web, 1989）的起源，其本身是基于互联网的非线性交互系统或多媒体系统。</li>
+<li><a href="http://asn.desire2learn.com/resources/S2742443">C:</a> 理解关联数据（Linked Data, 2006）将文档的网络扩展为细粒度数据的网络（关联数据云图）。</li>
+<li><a href="http://asn.desire2learn.com/resources/S2742444">C:</a> 知道超文本标记语言HTML（1991+）是作为网页内容与多媒体组件的标记化语言。</li>
+<li><a href="http://asn.desire2learn.com/resources/S2742445">C:</a> 知道HTML的最新版本HTML5（2014）扩展了对复杂网络与移动应用的支持。</li>
+<li><a href="http://asn.desire2learn.com/resources/S2742446">C:</a> 知道超文本传输协议HTTP（1991+）是用于解析万维网上的超链接与传输数据的基本技术。</li>
+<li><a href="http://asn.desire2learn.com/resources/S2742447">C:</a> 知道表征状态传输（Representational State Transfer, REST）(2000）是一种软件架构风格，通过浏览器与网络服务器交换数据，通常基于大家所熟悉的HTTP操作。</li>
 </ul>
 </li>
-<li><a href="http://asn.desire2learn.com/resources/S2696027">B:</a> Linked Data principles<ul>
-<li><a href="http://asn.desire2learn.com/resources/S2696031">C:</a> Knows Tim Berners-Lee's principles of Linked Data: use URIs to name things, use HTTP URIs that can be resolved to useful information, and create links to URIs of other things.</li>
-<li><a href="http://asn.desire2learn.com/resources/S2742441">C:</a> Knows the "five stars" of Open Data: put data on the Web, preferably in a structured and preferably non-proprietary format, using URIs to name things, and link to other data.</li>
+<li><a href="http://asn.desire2learn.com/resources/S2696027">B:</a> 关联数据原则<ul>
+<li><a href="http://asn.desire2learn.com/resources/S2696031">C:</a> 知道Tim Berners-Lee提出的关联数据原则：使用URIs命名事物，使用HTTP URIs解析出有用的信息，与其他事物的URIs建立链接。</li>
+<li><a href="http://asn.desire2learn.com/resources/S2742441">C:</a> 知道开放数据5星标准：数据上网，优先使用结构化非专属数据格式，使用URIs对事物命名，链接其他数据。</li>
 </ul>
 </li>
-<li><a href="http://asn.desire2learn.com/resources/S2696036">B:</a> Linked Data policies and best practices<ul>
-<li><a href="http://asn.desire2learn.com/resources/S2731559">C:</a> Knows the primary organizations related to Linked Data standardization.<ul>
-<li><a href="http://asn.desire2learn.com/resources/S2731560">D:</a> Participates in developing standards and best practice with relevant organizations such as W3C.</li>
+<li><a href="http://asn.desire2learn.com/resources/S2696036">B:</a> 关联数据政策与最佳实践<ul>
+<li><a href="http://asn.desire2learn.com/resources/S2731559">C:</a> 知道关联数据标准化相关的主要组织机构。<ul>
+<li><a href="http://asn.desire2learn.com/resources/S2731560">D:</a> 参与标准制定和相关组织（如W3C）的最佳实践。</li>
 </ul>
 </li>
 </ul>
 </li>
-<li><a href="http://asn.desire2learn.com/resources/S2696039">B:</a> Non-RDF linked data</li>
+<li><a href="http://asn.desire2learn.com/resources/S2696039">B:</a> 非RDF关联数据</li>
 </ul>
-<h2 id="a-rdf-vocabularies-and-application-profiles"><a href="http://asn.desire2learn.com/resources/S2696018">A:</a> RDF vocabularies and application profiles</h2>
+<h2 id="a-rdf_1"><a href="http://asn.desire2learn.com/resources/S2696018">A:</a> RDF词汇与应用纲要</h2>
 <ul>
-<li><a href="http://asn.desire2learn.com/resources/S2696044">B:</a> Finding RDF-based vocabularies
-        * <a href="http://asn.desire2learn.com/resources/S2731567">D:</a> [MOVE] Knows portals and registries for finding RDF-based vocabularies.
-        * <a href="http://asn.desire2learn.com/resources/S2696094">D:</a> Finds properties and classes in the Linked Open Vocabularies (LOV) observatory and explores their versions and dependencies.</li>
-<li><a href="http://asn.desire2learn.com/resources/S2731561">B:</a> Designing RDF-based vocabularies<ul>
-<li><a href="http://asn.desire2learn.com/resources/S2731562">C:</a> Uses RDF Schema to express semantic relationships within a vocabulary.<ul>
-<li><a href="http://asn.desire2learn.com/resources/S2731563">D:</a> Correctly uses sub-class relationships in support of inference.</li>
-<li><a href="http://asn.desire2learn.com/resources/S2731564">D:</a> Correctly uses sub-property relationships in support of inference.</li>
+<li><a href="http://asn.desire2learn.com/resources/S2696044">B:</a> 发现RDF词汇
+        * <a href="http://asn.desire2learn.com/resources/S2731567">D:</a> [MOVE] 知道如何通过数据门户与注册系统找到RDF词汇。
+        * <a href="http://asn.desire2learn.com/resources/S2696094">D:</a> 查找&lt;关联开放词汇注册系统&gt;LOV中注册的属性(properties)与类(classes)，理解它们的版本与依赖关系。</li>
+<li><a href="http://asn.desire2learn.com/resources/S2731561">B:</a> 设计RDF词汇<ul>
+<li><a href="http://asn.desire2learn.com/resources/S2731562">C:</a>  会用RDF Schema表达词汇表中的语义关系。<ul>
+<li><a href="http://asn.desire2learn.com/resources/S2731563">D:</a> 正确使用子类关系，以支持推理。</li>
+<li><a href="http://asn.desire2learn.com/resources/S2731564">D:</a> 正确使用子属性关系，以支持推理。</li>
 </ul>
 </li>
-<li><a href="http://asn.desire2learn.com/resources/S2731566">C:</a> Reuses published properties and classes where available.</li>
+<li><a href="http://asn.desire2learn.com/resources/S2731566">C:</a> 重用已发布的可用属性与类。</li>
 <li><a href="http://asn.desire2learn.com/resources/S2731568">C:</a> Coins namespace URIs, as needed, for any new properties and classes required.<ul>
-<li><a href="http://asn.desire2learn.com/resources/S2731569">D:</a> Drafts a policy for coining URIs for properties and classes.</li>
-<li><a href="http://asn.desire2learn.com/resources/S2731570">D:</a> Chooses "hash"- or "slash"-based URI patterns based on requirements.</li>
+<li><a href="http://asn.desire2learn.com/resources/S2731569">D:</a> 草拟类和属性的URI政策。</li>
+<li><a href="http://asn.desire2learn.com/resources/S2731570">D:</a> 选择基于#号（hash）或斜线（slash）的URI模式，视需求而定。</li>
 </ul>
 </li>
-<li><a href="http://asn.desire2learn.com/resources/S2742449">C:</a> Knows Web Ontology Language, or OWL (2004), as a RDF vocabulary of properties and classes that extend support for expressive data modeling and automated inferencing (reasoning).</li>
-<li><a href="http://asn.desire2learn.com/resources/S2742450">C:</a> Knows that the word "ontology" is ambiguous, referring to any RDF vocabulary, but more typically a set of OWL classes and properties designed to support inferencing in a specific domain.</li>
-<li><a href="http://asn.desire2learn.com/resources/S2742451">C:</a> Knows Simple Knowledge Organization System, or SKOS (2009), an RDF vocabulary for expressing concepts that are labeled in natural languages, organized into informal hierarchies, and aggregated into concept schemes.</li>
-<li><a href="http://asn.desire2learn.com/resources/S2742452">C:</a> Knows SKOS eXtension for Labels, or SKOS-XL (2009), a small set of additional properties for describing and linking lexical labels as instances of the class Label.</li>
-<li><a href="http://asn.desire2learn.com/resources/S2742453">C:</a> Understands that in a formal sense, a SKOS concept is not an RDF class but an instance and, as such, is not formally associated with a set of instances ("class extension").</li>
-<li><a href="http://asn.desire2learn.com/resources/S2742454">C:</a> Understands that SKOS can express a flexibly associative structure of concepts without enabling the more rigid and automatic inferences typically specified in a class-based OWL ontology.</li>
-<li><a href="http://asn.desire2learn.com/resources/S2742455">C:</a> Understands that in contrast to OWL sub-class chains, hierarchies of SKOS concepts are designed not to form transitive chains automatically because this is not how humans think or organize information.</li>
-<li><a href="http://asn.desire2learn.com/resources/S2731565">C:</a> Knows the naming conventions for RDF properties and classes.</li>
+<li><a href="http://asn.desire2learn.com/resources/S2742449">C:</a> 知道网络本体语言OWL（2004）作为一套RDF词汇，扩展了属性与类，以支持表征型（expressive）数据建模与自动推理。</li>
+<li><a href="http://asn.desire2learn.com/resources/S2742450">C:</a> 知道“本体”一词是模糊的，与RDF词汇有关，但更多是在特定领域中支持推理的OWL类与属性集合。</li>
+<li><a href="http://asn.desire2learn.com/resources/S2742451">C:</a> 知道简单知识组织系统SKOS（2009），一套对自然语言中标记的概念进行表达的RDF词汇，将概念组织成非正式的层级，形成概念体系。</li>
+<li><a href="http://asn.desire2learn.com/resources/S2742452">C:</a> 知道SKOS的词汇扩展SKOS-XL（2009），增加了用于描述与关联词汇标签（Label类的实例）的属性集合。</li>
+<li><a href="http://asn.desire2learn.com/resources/S2742453">C:</a> 理解SKOS概念（concept）不是RDF类（class），而是RDF实例（instance）。因此，SKOS概念并不与实例集合（类的扩展）建立正式关联。</li>
+<li><a href="http://asn.desire2learn.com/resources/S2742454">C:</a> 理解SKOS能灵活表达概念的相关关系，不需要启用更严格的自动推理。基于类的OWL本体通常需要严格指定推理规则。</li>
+<li><a href="http://asn.desire2learn.com/resources/S2742455">C:</a> 理解OWL子类链与SKOS概念层级的区别。SKOS概念层级的设计初衷不是层级之间自动形成传递机制，因为这并不是人们思考与组织信息的方式。</li>
+<li><a href="http://asn.desire2learn.com/resources/S2731565">C:</a> 道RDF属性与类的命名惯例。</li>
 </ul>
 </li>
-<li><a href="http://asn.desire2learn.com/resources/S2696051">B:</a> Maintaining RDF vocabularies<ul>
-<li><a href="http://asn.desire2learn.com/resources/S2731571">C:</a> Understands policy options for persistence guarantees.<ul>
-<li><a href="http://asn.desire2learn.com/resources/S2731572">D:</a> Can draft a persistence policy.</li>
-</ul>
-</li>
-</ul>
-</li>
-<li><a href="http://asn.desire2learn.com/resources/S2696058">B:</a> Versioning RDF vocabularies<ul>
-<li><a href="http://asn.desire2learn.com/resources/S2731573">C:</a> Knows technical options for the form, content, and granularity of versions.</li>
-<li><a href="http://asn.desire2learn.com/resources/S2742456">C:</a> Understands the trade-offs between publishing RDF vocabularies in periodic, numbered releases versus more continual or incremental approaches.<ul>
-<li><a href="http://asn.desire2learn.com/resources/S2731574">D:</a> Can express and justify a versioning policy.</li>
+<li><a href="http://asn.desire2learn.com/resources/S2696051">B:</a> RDF词汇的维护<ul>
+<li><a href="http://asn.desire2learn.com/resources/S2731571">C:</a> 理解持久性保障的策略选项。<ul>
+<li><a href="http://asn.desire2learn.com/resources/S2731572">D:</a> 能起草持久性策略文件。</li>
 </ul>
 </li>
 </ul>
 </li>
-<li><a href="http://asn.desire2learn.com/resources/S2696061">B:</a> Publishing RDF vocabularies<ul>
-<li><a href="http://asn.desire2learn.com/resources/S2731575">C:</a> Understands the typical publication formats for RDF vocabularies and their relative advantages</li>
-<li><a href="http://asn.desire2learn.com/resources/S2731576">C:</a> Understands the purpose of publishing RDF vocabularies in multiple formats using content negotiation.</li>
-<li><a href="http://asn.desire2learn.com/resources/S2742457">C:</a> Understands that to be "dereferencable", a URI should be usable to retrieve a representation of the resource it identifies.<ul>
-<li><a href="http://asn.desire2learn.com/resources/S2742458">D:</a> Ensures that when dereferenced by a Web browser, a URI returns a representation of the resource in human-readable HTML.</li>
-<li><a href="http://asn.desire2learn.com/resources/S2742459">D:</a> Ensures that when dereferenced by an RDF application, a URI returns representation of the resource in the requested RDF serialization syntax.</li>
+<li><a href="http://asn.desire2learn.com/resources/S2696058">B:</a> RDF词汇的版本控制<ul>
+<li><a href="http://asn.desire2learn.com/resources/S2731573">C:</a> 知道版本的格式、内容与粒度的相关技术选项。</li>
+<li><a href="http://asn.desire2learn.com/resources/S2742456">C:</a> 理解如何在RDF词汇以定期版本号发布与持续增量发布之间做出权衡。<ul>
+<li><a href="http://asn.desire2learn.com/resources/S2731574">D:</a> 能够撰写与评判一份版本策略文件。</li>
 </ul>
 </li>
 </ul>
 </li>
-<li><a href="http://asn.desire2learn.com/resources/S2696065">B:</a> Mapping RDF vocabularies<ul>
-<li><a href="http://asn.desire2learn.com/resources/S2742460">C:</a> Understands that the properties of hierarchical subsumption within an RDF vocabulary -- rdfs:subPropertyOf and rdfs:subClassOf -- can also be used to express mappings between vocabularies.</li>
-<li><a href="http://asn.desire2learn.com/resources/S2742461">C:</a> Understands that owl:equivalentProperty and owl:equivalentClass may be used when equivalencies between properties or between classes are exact.</li>
-<li><a href="http://asn.desire2learn.com/resources/S2742448">C:</a> Recognizes that owl:sameAs, while popular as a mapping property, has strong formal semantics that can entail unintended inferences.</li>
-</ul>
-</li>
-<li><a href="http://asn.desire2learn.com/resources/S2696069">B:</a> RDF application profiles<ul>
-<li><a href="http://asn.desire2learn.com/resources/S2731577">C:</a> Identifies real-world entities in an application domain as candidates for RDF classes.</li>
-<li><a href="http://asn.desire2learn.com/resources/S2731578">C:</a> Identifies resource attributes and relationships between domain entities as candidates for RDF properties.</li>
-<li><a href="http://asn.desire2learn.com/resources/S2731579">C:</a> Investigates how others have modeled the same or similar application domains.<ul>
-<li><a href="http://asn.desire2learn.com/resources/S2731580">D:</a> Communicates a domain model with words and diagrams.</li>
-<li><a href="http://asn.desire2learn.com/resources/S2731581">D:</a> Participates in the social process of developing application profiles.</li>
+<li><a href="http://asn.desire2learn.com/resources/S2696061">B:</a> RDF词汇的发布<ul>
+<li><a href="http://asn.desire2learn.com/resources/S2731575">C:</a> 理解RDF词汇的常用发布格式及其相对优点。</li>
+<li><a href="http://asn.desire2learn.com/resources/S2731576">C:</a> 理解RDF词汇通过内容协商发布多种数据格式的目的。</li>
+<li><a href="http://asn.desire2learn.com/resources/S2742457">C:</a> 理解“解引用”（derefencable），即通过URI应该能检索到它所代表的资源的一种表征。<ul>
+<li><a href="http://asn.desire2learn.com/resources/S2742458">D:</a> 确保 Web浏览器解引时，URI返回的资源表征形式是用户可读的HTML。</li>
+<li><a href="http://asn.desire2learn.com/resources/S2742459">D:</a> 确保RDF应用解引用时，URI返回的资源表征形式是被请求的RDF序列语法。</li>
 </ul>
 </li>
 </ul>
 </li>
+<li><a href="http://asn.desire2learn.com/resources/S2696065">B:</a> RDF词汇映射<ul>
+<li><a href="http://asn.desire2learn.com/resources/S2742460">C:</a> 理解RDF词汇的层级包含属性（rdfs:subProperty子属性和rdfs:subClassOf子类）可用于表达词汇之间的映射关系。</li>
+<li><a href="http://asn.desire2learn.com/resources/S2742461">C:</a> 理解owl:equivalentProperty等价属性与owl:equivalentClasss等价类分别适用于属性与类的精确等价关系。</li>
+<li><a href="http://asn.desire2learn.com/resources/S2742448">C:</a>  认识owl:sameAs全等是常见的一种映射属性，带有强大的形式化语义，会引发意想不到的推论。</li>
 </ul>
-<h2 id="a-creating-and-transforming-linked-data"><a href="http://asn.desire2learn.com/resources/S2696022">A:</a> Creating and transforming Linked Data</h2>
+</li>
+<li><a href="http://asn.desire2learn.com/resources/S2696069">B:</a> RDF应用纲要<ul>
+<li><a href="http://asn.desire2learn.com/resources/S2731577">C:</a> 识别应用领域内真实世界的实体，作为RDF类的备选。</li>
+<li><a href="http://asn.desire2learn.com/resources/S2731578">C:</a> 识别领域实体间的资源属性与关系，作为RDF属性的备选。</li>
+<li><a href="http://asn.desire2learn.com/resources/S2731579">C:</a> 调查相同或相似应用领域的RDF建模方法。 <ul>
+<li><a href="http://asn.desire2learn.com/resources/S2731580">D:</a> 以文字与图表方式交流领域模型。</li>
+<li><a href="http://asn.desire2learn.com/resources/S2731581">D:</a> 参与元数据应用纲要的社会化过程。</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<h2 id="a-rdf_2"><a href="http://asn.desire2learn.com/resources/S2696022">A:</a> RDF数据的生成与转换</h2>
 <ul>
-<li><a href="http://asn.desire2learn.com/resources/S2696076">B:</a> Managing identifiers (URI)<ul>
-<li><a href="http://asn.desire2learn.com/resources/S2742462">C:</a> Understands that to be "persistent", a URI must have a stable, well-documented meaning and be plausibly intended to identify a given resource in perpetuity.</li>
-<li><a href="http://asn.desire2learn.com/resources/S2742463">C:</a> Understands trade-offs between "opaque" URIs and URIs using version numbers, server names, dates, application-specific file extensions, query strings or other obsoletable context.</li>
-<li><a href="http://asn.desire2learn.com/resources/S2742464">C:</a> Recognizes the desirability of a published namespace policy describing an institution's commitment to the persistence and semantic stability of important URIs.</li>
+<li><a href="http://asn.desire2learn.com/resources/S2696076">B:</a> 统一资源标识符的管理（URIs）<ul>
+<li><a href="http://asn.desire2learn.com/resources/S2742462">C:</a> 理解持久性的含义，即URI必须是稳定的、具有记录含义的，能够永久指向特定资源。</li>
+<li><a href="http://asn.desire2learn.com/resources/S2742463">C:</a> 理解如何在“不透明”的URIs与那些使用版本号、服务器名、日期、应用程序特定文件扩展、查询字符串及其他过时的URIs之间做出权衡。</li>
+<li><a href="http://asn.desire2learn.com/resources/S2742464">C:</a> 认识到一个发布的命名空间的政策宣告意味着对重要URIs的持久性与语义稳定性作出机构承诺。</li>
 </ul>
 </li>
-<li><a href="http://asn.desire2learn.com/resources/S2696080">B:</a> Creating RDF data<ul>
-<li><a href="http://asn.desire2learn.com/resources/S2731582">C:</a> Generates RDF data from non-RDF sources.</li>
-<li><a href="http://asn.desire2learn.com/resources/S2742465">C:</a> Knows methods for generating RDF data from tabular data in formats such as Comma-Separated Values (CSV).</li>
-<li><a href="http://asn.desire2learn.com/resources/S2742466">C:</a> Knows methods such as Direct Mapping of Relational Data to RDF (2012) for transforming data from the relational model (keys, values, rows, columns, tables) into RDF graphs.</li>
+<li><a href="http://asn.desire2learn.com/resources/S2696080">B:</a> RDF数据的生成<ul>
+<li><a href="http://asn.desire2learn.com/resources/S2731582">C:</a> 从非RDF数据源中生成RDF数据。</li>
+<li><a href="http://asn.desire2learn.com/resources/S2742465">C:</a> 知道从表格数据（如CSV，逗号分隔值）生成RDF数据的方法。</li>
+<li><a href="http://asn.desire2learn.com/resources/S2742466">C:</a> 知道关系型数据直接映射为RDF的方法（2012），从关系模型（键、值、行、列与表）数据转换为RDF图数据。</li>
 </ul>
 </li>
-<li><a href="http://asn.desire2learn.com/resources/S2696082">B:</a> Versioning RDF data</li>
-<li><a href="http://asn.desire2learn.com/resources/S2696083">B:</a> RDF data provenance</li>
-<li><a href="http://asn.desire2learn.com/resources/S2696084">B:</a> Cleaning and reconciling RDF data<ul>
-<li><a href="http://asn.desire2learn.com/resources/S2731583">C:</a> Cleans a dataset by finding and correcting errors, removing duplicates and unwanted data.</li>
+<li><a href="http://asn.desire2learn.com/resources/S2696082">B:</a> RDF数据的版本管理</li>
+<li><a href="http://asn.desire2learn.com/resources/S2696083">B:</a> RDF数据溯源</li>
+<li><a href="http://asn.desire2learn.com/resources/S2696084">B:</a> RDF数据的清洗与融合<ul>
+<li><a href="http://asn.desire2learn.com/resources/S2731583">C:</a> 数据集的清洗，包括纠错、去重以及移除不需要的数据。</li>
 </ul>
 </li>
-<li><a href="http://asn.desire2learn.com/resources/S2696085">B:</a> Mapping and enriching RDF data<ul>
-<li><a href="http://asn.desire2learn.com/resources/S2731584">C:</a> Uses available resources for named entity recognition, extraction, and reconciliation.</li>
+<li><a href="http://asn.desire2learn.com/resources/S2696085">B:</a> RDF数据的映射与丰富<ul>
+<li><a href="http://asn.desire2learn.com/resources/S2731584">C:</a> 将可用资源用于命名实体识别、抽取与融合。</li>
 </ul>
 </li>
 </ul>
-<h2 id="a-interacting-with-rdf-data"><a href="http://asn.desire2learn.com/resources/S2696023">A:</a> Interacting with RDF data</h2>
+<h2 id="a-rdf_3"><a href="http://asn.desire2learn.com/resources/S2696023">A:</a> 与RDF数据的交互</h2>
 <ul>
-<li><a href="http://asn.desire2learn.com/resources/S2709893">B:</a> Finding RDF data<ul>
-<li><a href="http://asn.desire2learn.com/resources/S2710042">C:</a> Knows relevant resources for discovering existing Linked Data datasets.</li>
-<li><a href="http://asn.desire2learn.com/resources/S2710039">C:</a> Retrieves and accesses RDF data from the "open Web".</li>
-<li><a href="http://asn.desire2learn.com/resources/S2710046">C:</a> Monitors and updates lists which report the status of SPARQL endpoints.</li>
-<li><a href="http://asn.desire2learn.com/resources/S2710054">C:</a> Uses available vocabularies for dataset description to support their discovery.</li>
-<li><a href="http://asn.desire2learn.com/resources/S2710057">C:</a> Registers datasets with relevant services for discovery.</li>
+<li><a href="http://asn.desire2learn.com/resources/S2709893">B:</a> 发现RDF数据<ul>
+<li><a href="http://asn.desire2learn.com/resources/S2710042">C:</a> 知道如何查找已有的相关关联数据集资源。</li>
+<li><a href="http://asn.desire2learn.com/resources/S2710039">C:</a> 在“开放网络”中检索与访问RDF数据。</li>
+<li><a href="http://asn.desire2learn.com/resources/S2710046">C:</a>  监控与更新 SPARQL Endpoint的状态列表。</li>
+<li><a href="http://asn.desire2learn.com/resources/S2710054">C:</a> 使用可用的数据集描述词汇，以促进数据集的发现。</li>
+<li><a href="http://asn.desire2learn.com/resources/S2710057">C:</a> 注册数据集及相关服务，以促进数据集的发现。</li>
 </ul>
 </li>
-<li><a href="http://asn.desire2learn.com/resources/S2696086">B:</a> Processing RDF data using programming languages.<ul>
-<li><a href="http://asn.desire2learn.com/resources/S2742467">C:</a> Understands how components of the RDF data model (datasets, graphs, statements, and various types of node) are expressed in the RDF library of a given programming language by constructs such as object-oriented classes.<ul>
-<li><a href="http://asn.desire2learn.com/resources/S2742468">D:</a> Uses an RDF programming library to serialize RDF data in available syntaxes.</li>
-<li><a href="http://asn.desire2learn.com/resources/S2742469">D:</a> Uses RDF-specific programming methods to iterate over components of RDF data.</li>
-<li><a href="http://asn.desire2learn.com/resources/S2742470">D:</a> Uses RDF-library-specific convenience representations for common RDF vocabularies such as RDF, Dublin Core, and SKOS.</li>
+<li><a href="http://asn.desire2learn.com/resources/S2696086">B:</a> 使用编程语言处理RDF数据。<ul>
+<li><a href="http://asn.desire2learn.com/resources/S2742467">C:</a> 理解RDF数据模型的各个组件（数据集、图、陈述及各种节点类型）如何使用特定编程语言的RDF 库进行表达。例如，构造为面向对象的类。<ul>
+<li><a href="http://asn.desire2learn.com/resources/S2742468">D:</a> 使用RDF编程库支持的语法对RDF数据进行序列化。</li>
+<li><a href="http://asn.desire2learn.com/resources/S2742469">D:</a> 使用RDF编程方法迭代RDF数据组件。</li>
+<li><a href="http://asn.desire2learn.com/resources/S2742470">D:</a> 使用RDF编程库的特定方法表征常见的RDF词汇，例如RDF、DC与SKOS。</li>
 </ul>
 </li>
-<li><a href="http://asn.desire2learn.com/resources/S2742471">C:</a> Programatically associates namespaces to prefixes for use in serializing RDF or when parsing SPARQL queries.<ul>
-<li><a href="http://asn.desire2learn.com/resources/S2742472">D:</a> Uses RDF programming libraries to extract RDF data from CSV files, databases, or web pages.</li>
-<li><a href="http://asn.desire2learn.com/resources/S2742473">D:</a> Uses RDF programming libraries to persistently stores triples in memory, on disk, or to interact with triple stores.</li>
-<li><a href="http://asn.desire2learn.com/resources/S2742474">D:</a> Programatically infers triples using custom functions or methods.</li>
+<li><a href="http://asn.desire2learn.com/resources/S2742471">C:</a> 以编程方式在前缀中加入相关的命名空间，主要用于RDF序列生成和解析SPARQL查询两种情况。<ul>
+<li><a href="http://asn.desire2learn.com/resources/S2742472">D:</a> 使用RDF编程库，从CSV文件、数据库或网页中提取RDF数据。</li>
+<li><a href="http://asn.desire2learn.com/resources/S2742473">D:</a> 使用RDF编程库，在内存、硬盘持久地存储三元组，或与RDF存储库（Triplestore）交互。</li>
+<li><a href="http://asn.desire2learn.com/resources/S2742474">D:</a> 以编程方式通过自定义的函数或方法对三元组进行推理。</li>
 </ul>
 </li>
-<li><a href="http://asn.desire2learn.com/resources/S2742475">C:</a> Understands how the pattern matching of SPARQL queries can be expressed using functionally equivalent constructs in RDF programming libraries.<ul>
-<li><a href="http://asn.desire2learn.com/resources/S2742476">D:</a> Uses RDF-specific programming methods to query RDF data and save the results for further processing.</li>
-<li><a href="http://asn.desire2learn.com/resources/S2742477">D:</a> Uses utilities and convenience functions the provide shortcuts for frequently used patterns, such as matching the multiple label properties used in real data.</li>
-<li><a href="http://asn.desire2learn.com/resources/S2742478">D:</a> Uses RDF libraries to process various types of SPARQL query result.</li>
+<li><a href="http://asn.desire2learn.com/resources/S2742475">C:</a> 理解SPARQL查询匹配的模式能够使用RDF编程库中功能等价的构造方法表达。<ul>
+<li><a href="http://asn.desire2learn.com/resources/S2742476">D:</a> 使用RDF编程方法查询RDF数据，存储查询结果用于后续处理。</li>
+<li><a href="http://asn.desire2learn.com/resources/S2742477">D:</a> 使用工具与便利的功能为经常使用的模式设置快捷方式。例如，匹配真实数据中的多个标签属性。</li>
+<li><a href="http://asn.desire2learn.com/resources/S2742478">D:</a> 使用RDF编程库处理各种类型的SPARQL查询结果。</li>
 </ul>
 </li>
 </ul>
 </li>
-<li><a href="http://asn.desire2learn.com/resources/S2696087">B:</a> Querying RDF data<ul>
+<li><a href="http://asn.desire2learn.com/resources/S2696087">B:</a> RDF数据的查询<ul>
 <li><a href="http://asn.desire2learn.com/resources/S2708689">C:</a> Understands that a SPARQL query matches an RDF graph against a pattern of triples with fixed and variable values.</li>
-<li><a href="http://asn.desire2learn.com/resources/S2708688">C:</a> Understands the basic syntax of a SPARQL query.<ul>
-<li><a href="http://asn.desire2learn.com/resources/S2708691">D:</a> Uses angle brackets for delimiting URIs.</li>
-<li><a href="http://asn.desire2learn.com/resources/S2708692">D:</a> Uses question marks for indicating variables.</li>
-<li><a href="http://asn.desire2learn.com/resources/S2708694">D:</a> Uses PREFIX for base URIs.</li>
+<li><a href="http://asn.desire2learn.com/resources/S2708688">C:</a> 理解SPARQL查询的基本语法。<ul>
+<li><a href="http://asn.desire2learn.com/resources/S2708691">D:</a> 使用尖括号来界定URIs。</li>
+<li><a href="http://asn.desire2learn.com/resources/S2708692">D:</a> 使用问号表示变量。</li>
+<li><a href="http://asn.desire2learn.com/resources/S2708694">D:</a> 对基地址（base URIs）使用前缀（PREFIX）。</li>
 </ul>
 </li>
-<li><a href="http://asn.desire2learn.com/resources/S2708695">C:</a> Demonstrates a working knowledge of the forms and uses of SPARQL result sets (SELECT, CONSTRUCT, DESCRIBE, and ASK).<ul>
-<li><a href="http://asn.desire2learn.com/resources/S2708696">D:</a> Uses the SELECT clause to identify the variables to appear in a table of query results.</li>
-<li><a href="http://asn.desire2learn.com/resources/S2708697">D:</a> Uses the WHERE clause to provide the graph pattern to match against the graph data.</li>
-<li><a href="http://asn.desire2learn.com/resources/S2708698">D:</a> Uses variables in SELECT and WHERE clauses to yield a table of results.</li>
-<li><a href="http://asn.desire2learn.com/resources/S2708699">D:</a> Uses ASK for a True/False result test for a match to a query pattern.</li>
-<li><a href="http://asn.desire2learn.com/resources/S2708700">D:</a> Uses DESCRIBE to extract a single graph containing RDF data about resources.</li>
-<li><a href="http://asn.desire2learn.com/resources/S2708701">D:</a> Uses CONSTRUCT to extract and transform results into a single RDF graph specified by a graph template.</li>
-<li><a href="http://asn.desire2learn.com/resources/S2709273">D:</a> Uses FROM to formulate queries with URLs and local files.</li>
+<li><a href="http://asn.desire2learn.com/resources/S2708695">C:</a> 演示SPARQL结果集的格式与用法的操作命令（SELECT、CONSTRUCT、DESCRIBE与ASK)。<ul>
+<li><a href="http://asn.desire2learn.com/resources/S2708696">D:</a> 使用SELECT子句识别查询结果表中出现的变量。</li>
+<li><a href="http://asn.desire2learn.com/resources/S2708697">D:</a> 使用WHERE子句提供的图模式匹配相应的图数据。</li>
+<li><a href="http://asn.desire2learn.com/resources/S2708698">D:</a> 在SELECT与WHERE子句中通过变量获得一张查询结果表。</li>
+<li><a href="http://asn.desire2learn.com/resources/S2708699">D:</a> 使用ASK对查询模式的匹配进行真/假测试。</li>
+<li><a href="http://asn.desire2learn.com/resources/S2708700">D:</a> 使用DESCRIBE提取单个图，其包含相应资源的RDF数据。</li>
+<li><a href="http://asn.desire2learn.com/resources/S2708701">D:</a> 根据指定的图模板，使用CONSTRUCT抽取结果并将其转换为单个RDF图。</li>
+<li><a href="http://asn.desire2learn.com/resources/S2709273">D:</a> 使用FROM构造URLs查询与本地文件查询。</li>
 </ul>
 </li>
-<li><a href="http://asn.desire2learn.com/resources/S2708702">C:</a> Understands how to combine and filter graph patterns using operators such as UNION, OPTIONAL, FILTER, and MINUS.<ul>
-<li><a href="http://asn.desire2learn.com/resources/S2708703">D:</a> Uses UNION to formulate queries with multiple possible graph patterns.</li>
-<li><a href="http://asn.desire2learn.com/resources/S2708704">D:</a> Uses OPTIONAL to formulate queries to return the values of optional variables when available.</li>
-<li><a href="http://asn.desire2learn.com/resources/S2708705">D:</a> Uses FILTER to formulates queries that eliminate solutions from a result set.</li>
-<li><a href="http://asn.desire2learn.com/resources/S2708706">D:</a> Uses NOT EXISTS to limit whether a given graph pattern exists in the data.</li>
-<li><a href="http://asn.desire2learn.com/resources/S2708707">D:</a> Uses MINUS to remove matches from a result based on the evaluation of two patterns.</li>
-<li><a href="http://asn.desire2learn.com/resources/S2708708">D:</a> Uses NOT IN to restrict a variable to not being in a given set of values.</li>
+<li><a href="http://asn.desire2learn.com/resources/S2708702">C:</a> 理解如何使用操作符（如UNION、OPTIONAL、FILTER与MINUS）对图模式进行组合与过滤。<ul>
+<li><a href="http://asn.desire2learn.com/resources/S2708703">D:</a> 使用UNION构造多种可能的图模式查询。</li>
+<li><a href="http://asn.desire2learn.com/resources/S2708704">D:</a> 使用OPTIONAL构造查询，返回可用的可选变量的值。</li>
+<li><a href="http://asn.desire2learn.com/resources/S2708705">D:</a> 使用FILTER构造查询，用于结果集过滤。</li>
+<li><a href="http://asn.desire2learn.com/resources/S2708706">D:</a> 使用NOT EXISTS判断数据中是否存在特定的图模式。</li>
+<li><a href="http://asn.desire2learn.com/resources/S2708707">D:</a> 使用MINUS删除两个模式评估之后的结果匹配。</li>
+<li><a href="http://asn.desire2learn.com/resources/S2708708">D:</a> 使用NOT IN限定一个变量不出现在既定的值集合。</li>
 </ul>
 </li>
-<li><a href="http://asn.desire2learn.com/resources/S2708709">C:</a> Understands the major SPARQL result set modifiers, e.g., to limit or sort results, or to return distinct results only once.<ul>
-<li><a href="http://asn.desire2learn.com/resources/S2708711">D:</a> Uses ORDER BY to define ordering conditions by variable, function call, or expression.</li>
-<li><a href="http://asn.desire2learn.com/resources/S2708712">D:</a> Uses DISTINCT to ensure solutions in the sequence are unique.</li>
-<li><a href="http://asn.desire2learn.com/resources/S2708713">D:</a> Uses OFFSET to control where the solutions processed start in the overall sequence of solutions.</li>
-<li><a href="http://asn.desire2learn.com/resources/S2708716">D:</a> Uses LIMIT to restrict the number of solutions processed for query results.</li>
-<li><a href="http://asn.desire2learn.com/resources/S2708717">D:</a> Uses projection to transform a solution sequence into one involving only a subset of the variables.</li>
+<li><a href="http://asn.desire2learn.com/resources/S2708709">C:</a> 理解SPARQL结果集的主要修饰符，例如，对结果限制数量或排序，或返回不重复的结果。<ul>
+<li><a href="http://asn.desire2learn.com/resources/S2708711">D:</a> 使用ORDER BY根据变量、函数调用或表达式来定义排序条件。</li>
+<li><a href="http://asn.desire2learn.com/resources/S2708712">D:</a> 使用DISTINCT确保查询结果的取值是唯一的。</li>
+<li><a href="http://asn.desire2learn.com/resources/S2708713">D:</a> 使用OFFSET控制从整体查询结果的哪条记录（基准点）开始处理。</li>
+<li><a href="http://asn.desire2learn.com/resources/S2708716">D:</a> 使用LIMIT限制查询结果的返回个数。</li>
+<li><a href="http://asn.desire2learn.com/resources/S2708717">D:</a> 使用投影将结果序列变换为只保留其中一些变量的新结果序列。</li>
 </ul>
 </li>
-<li><a href="http://asn.desire2learn.com/resources/S2709147">C:</a> Understands the use of SPARQL functions and operators.<ul>
-<li><a href="http://asn.desire2learn.com/resources/S2709148">D:</a> Uses the regular expression (regex()) function for string matching.</li>
-<li><a href="http://asn.desire2learn.com/resources/S2709157">D:</a> Uses aggregates to apply expressions over groups of solutions (GROUP BY, COUNT, SUM, AVG, MIN) for partitioning results, evaluating projections, and filtering.</li>
-<li><a href="http://asn.desire2learn.com/resources/S2709160">D:</a> Uses the lang() function to return the language tag of an RDF literal.</li>
-<li><a href="http://asn.desire2learn.com/resources/S2709164">D:</a> Uses the langMatches() function to match a language tag against a language range.</li>
-<li><a href="http://asn.desire2learn.com/resources/S2709168">D:</a> Uses the xsd:decimal(expn) function to convert an expression to an integer.</li>
-<li><a href="http://asn.desire2learn.com/resources/S2709174">D:</a> Uses the GROUP BY clause to transforms a result set so that only one row will appear for each unique set of grouping variables.</li>
-<li><a href="http://asn.desire2learn.com/resources/S2709181">D:</a> Uses the HAVING clause to apply a filter to the result set after grouping.</li>
+<li><a href="http://asn.desire2learn.com/resources/S2709147">C:</a> 理解SPARQL函数与操作符的用法。<ul>
+<li><a href="http://asn.desire2learn.com/resources/S2709148">D:</a> 使用正则表达式（regex()）匹配字符串。</li>
+<li><a href="http://asn.desire2learn.com/resources/S2709157">D:</a> 使用聚集函数对结果进行分组、投影以及过滤等。</li>
+<li><a href="http://asn.desire2learn.com/resources/S2709160">D:</a> 使用lang()函数返回RDF文本串的语种标签。</li>
+<li><a href="http://asn.desire2learn.com/resources/S2709164">D:</a> 使用langMatches()函数匹配语言范围的语种标签。</li>
+<li><a href="http://asn.desire2learn.com/resources/S2709168">D:</a> 使用xsd:decimal(expn)函数将表达式转换为数值。</li>
+<li><a href="http://asn.desire2learn.com/resources/S2709174">D:</a> 使用GROUP BY子句对结果集进行转换，每个分组变量集只显示一行。</li>
+<li><a href="http://asn.desire2learn.com/resources/S2709181">D:</a> 使用HAVING子句在分组之后对结果集进行过滤。</li>
 </ul>
 </li>
-<li><a href="http://asn.desire2learn.com/resources/S2709246">C:</a> Differentiates between a Default Graph and a Named Graph, and formulates queries using the GRAPH clause.<ul>
-<li><a href="http://asn.desire2learn.com/resources/S2709260">D:</a> Formulates advanced queries using FROM NAMED and GRAPH on local data.</li>
-<li><a href="http://asn.desire2learn.com/resources/S2709264">D:</a> Formulates advanced queries using FROM NAMED on remote data.</li>
-<li><a href="http://asn.desire2learn.com/resources/S2708693">D:</a> Formulates advanced queries on data containing blank nodes.</li>
-<li><a href="http://asn.desire2learn.com/resources/S2709265">D:</a> Formulates advanced queries using subqueries.</li>
+<li><a href="http://asn.desire2learn.com/resources/S2709246">C:</a> 区分默认图与命名图，使用GRAPH子句构造查询。<ul>
+<li><a href="http://asn.desire2learn.com/resources/S2709260">D:</a> 在本地数据上使用FROM NAMED与GRAPH构造高级查询。</li>
+<li><a href="http://asn.desire2learn.com/resources/S2709264">D:</a> 在远程数据上使用FROM NAMED构造高级查询。</li>
+<li><a href="http://asn.desire2learn.com/resources/S2708693">D:</a> 在包含空白节点的数据上构造高级查询。</li>
+<li><a href="http://asn.desire2learn.com/resources/S2709265">D:</a> 使用子查询构造高级查询。</li>
 </ul>
 </li>
-<li><a href="http://asn.desire2learn.com/resources/S2709266">C:</a> Uses a temporary variable to extend a query.</li>
-<li><a href="http://asn.desire2learn.com/resources/S2709267">C:</a> Understands the role of Property Paths and how they are formed by combining predicates with regular expression-like operators.</li>
-<li><a href="http://asn.desire2learn.com/resources/S2709268">C:</a> Understands the concept of Federated Searches.<ul>
-<li><a href="http://asn.desire2learn.com/resources/S2709269">D:</a> Formulates advanced queries on a remote SPARQL endpoint using the SERVICE directive.</li>
-<li><a href="http://asn.desire2learn.com/resources/S2709270">D:</a> Uses federated query to query over a local graph store and one or more other SPARQL endpoints.</li>
-<li><a href="http://asn.desire2learn.com/resources/S2709271">D:</a> Pulls data from a different SPARQL endpoints in one single query using the SERVICE directive.</li>
+<li><a href="http://asn.desire2learn.com/resources/S2709266">C:</a> 使用临时变量扩展查询。</li>
+<li><a href="http://asn.desire2learn.com/resources/S2709267">C:</a> 理解属性路径的作用，以及如何通过类似正则表达式的操作符谓词组合而成。</li>
+<li><a href="http://asn.desire2learn.com/resources/S2709268">C:</a> 理解联邦检索的概念。<ul>
+<li><a href="http://asn.desire2learn.com/resources/S2709269">D:</a> 使用SERVICE指令在远程SPARQL Endpoint上构造高级查询。</li>
+<li><a href="http://asn.desire2learn.com/resources/S2709270">D:</a> 使用联合查询对本地图数据库或多个SPARQL Endpoint进行查询。</li>
+<li><a href="http://asn.desire2learn.com/resources/S2709271">D:</a> 使用SERVICE指令从不同的SPARQL Endpoint上获取数据。</li>
 </ul>
 </li>
-<li><a href="http://asn.desire2learn.com/resources/S2709272">C:</a> Converts/manipulates SPARQL query outputs (RDF-XML, JSON) to the exact format required by a third party tools and APIs.</li>
-<li><a href="http://asn.desire2learn.com/resources/S2709274">C:</a> Reads and understands high-level descriptions of the classes and properties of a dataset in order to write queries.</li>
-<li><a href="http://asn.desire2learn.com/resources/S2709275">C:</a> Uses available tools, servers, and endpoints to issue queries against a dataset.<ul>
-<li><a href="http://asn.desire2learn.com/resources/S2709276">D:</a> Execute SPARQL queries using the Jena ARQ command-line utility.</li>
-<li><a href="http://asn.desire2learn.com/resources/S2709277">D:</a> Queries multiple local data files using ARQ.</li>
-<li><a href="http://asn.desire2learn.com/resources/S2709278">D:</a> Uses ARQ to evaluate queries on local data.</li>
-<li><a href="http://asn.desire2learn.com/resources/S2709279">D:</a> Uses Fuseki server to evaluate queries on a dataset.</li>
-<li><a href="http://asn.desire2learn.com/resources/S2709280">D:</a> Queries multiple data files using Fuseki.</li>
-<li><a href="http://asn.desire2learn.com/resources/S2709281">D:</a> Accesses DBPedia's SNORQL/SPARQL endpoint and issues simple queries.</li>
-</ul>
-</li>
-</ul>
-</li>
-<li><a href="http://asn.desire2learn.com/resources/S2696088">B:</a> Visualizing RDF data<ul>
-<li><a href="http://asn.desire2learn.com/resources/S2709282">C:</a> Uses publicly available tools to visualize data.<ul>
-<li><a href="http://asn.desire2learn.com/resources/S2709283">D:</a> Uses Google FusionTables to create maps and charts.</li>
-</ul>
-</li>
-<li><a href="http://asn.desire2learn.com/resources/S2709284">C:</a> Distills results taken from large datasets so that visualizations are human-friendly.</li>
-<li><a href="http://asn.desire2learn.com/resources/S2742490">C:</a> Converts/manipulates SPARQL query outputs (RDF-XML, JSON) to the exact format required by third party tools and APIs.</li>
-</ul>
-</li>
-<li><a href="http://asn.desire2learn.com/resources/S2696089">B:</a> Reasoning over RDF data<ul>
-<li><a href="http://asn.desire2learn.com/resources/S2708690">C:</a> Understands the principles and practice of inferencing.</li>
-<li><a href="http://asn.desire2learn.com/resources/S2709285">C:</a> Uses common entailment regimes and understands their uses.</li>
-<li><a href="http://asn.desire2learn.com/resources/S2731586">C:</a> Understands the role of formally declared domains and ranges for inferencing.</li>
-<li><a href="http://asn.desire2learn.com/resources/S2731587">C:</a> Understands how reasoning can be used for integrating diverse datasets.</li>
-<li><a href="http://asn.desire2learn.com/resources/S2742479">C:</a> Knows that Web Ontology Language (OWL) is available in multiple "flavors" that are variously optimized for expressivity, performant reasoning, or for applications involving databases or business rules.</li>
-<li><a href="http://asn.desire2learn.com/resources/S2742480">C:</a> Understands that OWL Full supports all available constructs and is most appropriately used when reasoning performance is not a concern.</li>
-</ul>
-</li>
-<li><a href="http://asn.desire2learn.com/resources/S2696090">B:</a> Assessing RDF data quality</li>
-<li><a href="http://asn.desire2learn.com/resources/S2696091">B:</a> RDF data analytics<ul>
-<li><a href="http://asn.desire2learn.com/resources/S2709287">C:</a> Uses available ontology browsing tools to explore the ontologies used in a particular dataset.</li>
-</ul>
-</li>
-<li><a href="http://asn.desire2learn.com/resources/S2709897">B:</a> Manipulating RDF data<ul>
-<li><a href="http://asn.desire2learn.com/resources/S2709288">C:</a> Knows the SPARQL 1.1 Update language for updating, creating, and removing RDF graphs in a Graph Store<ul>
-<li><a href="http://asn.desire2learn.com/resources/S2709290">D:</a> Uses INSERT/DELETE to update triples.</li>
-<li><a href="http://asn.desire2learn.com/resources/S2731588">D:</a> Uses a CONSTRUCT query to preview changes before executing an INSERT/DELETE operation.</li>
-</ul>
-</li>
-<li><a href="http://asn.desire2learn.com/resources/S2709289">C:</a> Knows the SPARQL 1.1 Graph Store HTTP protocol for updating graphs on a web server (in "restful" style).<ul>
-<li><a href="http://asn.desire2learn.com/resources/S2709291">D:</a> Uses GET to retrieve triples from a default graph or a named graph.</li>
-<li><a href="http://asn.desire2learn.com/resources/S2709292">D:</a> Uses PUT to insert set of triples into a new graph (or replace an existing graph).</li>
-<li><a href="http://asn.desire2learn.com/resources/S2709293">D:</a> Uses DELETE to remove a graph.</li>
-<li><a href="http://asn.desire2learn.com/resources/S2731589">D:</a> Uses POST to add triples to an existing graph.</li>
-<li><a href="http://asn.desire2learn.com/resources/S2709294">D:</a> Uses proper syntax to request specific media types, such as Turtle.</li>
-</ul>
-</li>
-<li><a href="http://asn.desire2learn.com/resources/S2709930">C:</a> Understands the difference between SQL query language (which operates on database tables) and SPARQL (which operates on RDF graphs).</li>
+<li><a href="http://asn.desire2learn.com/resources/S2709272">C:</a> 根据第三方工具与APIs的具体格式需要，转换/操作SPARQL查询结果输出（RDF-XML、JSON）。</li>
+<li><a href="http://asn.desire2learn.com/resources/S2709274">C:</a> 阅读与理解数据集的类与属性的高级描述，以便于编写查询。</li>
+<li><a href="http://asn.desire2learn.com/resources/S2709275">C:</a> 使用可用的工具、服务器与Endpoint，对数据集进行查询。<ul>
+<li><a href="http://asn.desire2learn.com/resources/S2709276">D:</a> 使用Jena ARQ命令行工具执行SPARQL查询。</li>
+<li><a href="http://asn.desire2learn.com/resources/S2709277">D:</a>使用ARQ查询多个本地数据文件。</li>
+<li><a href="http://asn.desire2learn.com/resources/S2709278">D:</a> 使用ARQ评估本地数据上的查询。</li>
+<li><a href="http://asn.desire2learn.com/resources/S2709279">D:</a> 使用Fuseki服务器评估数据集上的查询。</li>
+<li><a href="http://asn.desire2learn.com/resources/S2709280">D:</a> 使用Fuseki查询多个数据文件。</li>
+<li><a href="http://asn.desire2learn.com/resources/S2709281">D:</a> 访问DBpedia的SNORQL/SPARQL Endpoint，提交简单的查询。</li>
 </ul>
 </li>
 </ul>
-<h2 id="a-creating-linked-data-applications"><a href="http://asn.desire2learn.com/resources/S2696024">A:</a> Creating Linked Data applications</h2>
+</li>
+<li><a href="http://asn.desire2learn.com/resources/S2696088">B:</a> RDF数据的可视化<ul>
+<li><a href="http://asn.desire2learn.com/resources/S2709282">C:</a> 使用公开可用的工具可视化数据。<ul>
+<li><a href="http://asn.desire2learn.com/resources/S2709283">D:</a> 使用Google的Fusion Tables生成地图与图表。</li>
+</ul>
+</li>
+<li><a href="http://asn.desire2learn.com/resources/S2709284">C:</a> 从大型数据集中提取数据，以用户友好的方式可视化。</li>
+<li><a href="http://asn.desire2learn.com/resources/S2742490">C:</a> 根据第三方工具与APIs的具体格式需要，转换/操作SPARQL查询结果输出（RDF-XML、JSON）。</li>
+</ul>
+</li>
+<li><a href="http://asn.desire2learn.com/resources/S2696089">B:</a> 基于RDF数据进行推理<ul>
+<li><a href="http://asn.desire2learn.com/resources/S2708690">C:</a> 解推理的原理与实践。</li>
+<li><a href="http://asn.desire2learn.com/resources/S2709285">C:</a> 使用常见的蕴涵机制并理解它们的用法。</li>
+<li><a href="http://asn.desire2learn.com/resources/S2731586">C:</a> 理解推理中形式化声明的定义域与值域的作用。</li>
+<li><a href="http://asn.desire2learn.com/resources/S2731587">C:</a> 理解如何在集成的多元化数据集上进行推理。</li>
+<li><a href="http://asn.desire2learn.com/resources/S2742479">C:</a> 知道网络本体语言（Web Ontology Language, OWL）在表达能力、推理方面以及涉及数据库与业务规则的应用中具有较好的适用性。</li>
+<li><a href="http://asn.desire2learn.com/resources/S2742480">C:</a> 理解OWL Full支持所有可用的构造，若不考虑推理性能问题的话，则OWL Full是最佳选择。</li>
+</ul>
+</li>
+<li><a href="http://asn.desire2learn.com/resources/S2696090">B:</a> 评估 RDF数据质量</li>
+<li><a href="http://asn.desire2learn.com/resources/S2696091">B:</a> RDF数据分析<ul>
+<li><a href="http://asn.desire2learn.com/resources/S2709287">C:</a> 会用可获取的本体浏览工具，探索特定数据集中的本体。</li>
+</ul>
+</li>
+<li><a href="http://asn.desire2learn.com/resources/S2709897">B:</a> RDF数据处理<ul>
+<li><a href="http://asn.desire2learn.com/resources/S2709288">C:</a> 知道SPARQL 1.1更新语言，对图数据库中的RDF图进行更改、创建与删除。<ul>
+<li><a href="http://asn.desire2learn.com/resources/S2709290">D:</a> 使用INSERT/DELETE更改三元组。</li>
+<li><a href="http://asn.desire2learn.com/resources/S2731588">D:</a> 执行INSERT/DELETE操作之前，使用CONSTRUCT查询提前预览变化。</li>
+</ul>
+</li>
+<li><a href="http://asn.desire2learn.com/resources/S2709289">C:</a> 知道SPARQL 1.1 图数据库以RESTful风格，通过HTTP协议更新网络服务器上的图。<ul>
+<li><a href="http://asn.desire2learn.com/resources/S2709291">D:</a> 使用GET从默认图或命名图中检索三元组。</li>
+<li><a href="http://asn.desire2learn.com/resources/S2709292">D:</a> 使用PUT向新图或替代已有图插入一个新的三元组集合。</li>
+<li><a href="http://asn.desire2learn.com/resources/S2709293">D:</a> 使用DELETE删除RDF图。</li>
+<li><a href="http://asn.desire2learn.com/resources/S2731589">D:</a> 使用POST向已有图添加三元组。</li>
+<li><a href="http://asn.desire2learn.com/resources/S2709294">D:</a> 针对具体媒介类型使用恰当的语法，例如，Turtle。</li>
+</ul>
+</li>
+<li><a href="http://asn.desire2learn.com/resources/S2709930">C:</a> 理解SQL查询语言（操作的是数据库表）与SPARQL查询语言（操作的是RDF图）之间的差异。</li>
+</ul>
+</li>
+</ul>
+<h2 id="a_1"><a href="http://asn.desire2learn.com/resources/S2696024">A:</a>  关联数据应用的开发</h2>
 <ul>
-<li><a href="http://asn.desire2learn.com/resources/S2696092">B:</a> Storing RDF data</li>
+<li><a href="http://asn.desire2learn.com/resources/S2696092">B:</a> RDF数据的存储</li>
 </ul>
               
             </div>
