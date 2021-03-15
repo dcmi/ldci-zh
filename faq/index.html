@@ -9,7 +9,7 @@
   
   
   <link rel="shortcut icon" href="../img/favicon.ico">
-  <title>Style of the Index - Linked Data Competency Index (Chinese)</title>
+  <title>Faq - Linked Data Competency Index (Chinese)</title>
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato:400,700|Roboto+Slab:400,700|Inconsolata:400,700" />
 
   <link rel="stylesheet" href="../css/theme.css" />
@@ -18,8 +18,8 @@
   
   <script>
     // Current page data
-    var mkdocs_page_name = "Style of the Index";
-    var mkdocs_page_input_path = "style.md";
+    var mkdocs_page_name = "Faq";
+    var mkdocs_page_input_path = "faq.md";
     var mkdocs_page_url = null;
   </script>
   
@@ -59,10 +59,8 @@
                     <li class="toctree-l1"><a class="reference internal" href="../structure/">Structure of the Index</a>
                     </li>
                 </ul>
-                <ul class="current">
-                    <li class="toctree-l1 current"><a class="reference internal current" href="./">Style of the Index</a>
-    <ul class="current">
-    </ul>
+                <ul>
+                    <li class="toctree-l1"><a class="reference internal" href="../style/">Style of the Index</a>
                     </li>
                 </ul>
                 <ul>
@@ -94,10 +92,10 @@
     
       
     
-    <li>Style of the Index</li>
+    <li>Faq</li>
     <li class="wy-breadcrumbs-aside">
       
-        <a href="https://github.com/dcmi/ldci-zh/edit/master/docs/style.md"
+        <a href="https://github.com/dcmi/ldci-zh/edit/master/docs/faq.md"
           class="icon icon-github"> Edit on Github</a>
       
     </li>
@@ -108,69 +106,22 @@
           <div role="main">
             <div class="section">
               
-                <h3 id="_1">撰写有效的“能力”和“基准”</h3>
-<table>
-<thead>
-<tr>
-<th>能力 (理解)</th>
-<th>基准 (实施)</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>理解        </td>
-<td>使用          </td>
-</tr>
-<tr>
-<td>知道        </td>
-<td>表达      </td>
-</tr>
-<tr>
-<td>认识        </td>
-<td>演示  </td>
-</tr>
-<tr>
-<td>区分 ...</td>
-<td>转换 ...  </td>
-</tr>
-</tbody>
-</table>
+                <h3 id="_1">常见问答</h3>
 <ol>
 <li>
-<p>每个能力或基准都以一个行为动词开始。能力以与理想相关的动词开始。基准以关于实施的动词开始。</p>
+<p><strong>如何应用关联数据能力指标？</strong>  在LD4PE项目中，指标有两个主要的用途。它提供了关联数据领域的一个概览，老师和学习者可以使用此概览来设计大学课程，培训工作组或者自己制定学习计划。 它还提供了一组在元数据中使用的URI，根据主题或涵盖的能力来<a href="http://explore.dublincore.net/explore-learning-resources-by-competency/">标注培训资料</a>。</p>
 </li>
 <li>
-<p>将每个能力或基准限制在一个大约140个字符的句子中，即Twitter发布的长度。如果有需要更多的文字来表达的想法，那么考虑将想法分解成两个简单一点的。</p>
+<p><strong>为什么这些能力不进行编号以便容易参考？</strong>  能力指标会随着时间不断地进化。原则上，主题，能力或者基准可以随时添加到指标中，这样可能会改变任一顺序编号系统的序号。因此，我们可能偶尔会发行较为稳定的版本。在这种情况下, 需要修改<a href="https://github.com/dcmi/ldci/tree/master/docs/D2695955_to_md.py">用来创建Markdown文档的Python脚本</a>，以 x (集群), x.x (主题), x.x.x (能力), x.x.x.x (基准)的形式计算条目的数量。  有编号的版本对指标的翻译者也会有帮助 (参见<a href="http://explore.dublincore.net/wp-content/uploads/sites/2/2015/09/LD4PECompetencyIndex-chinese.pdf">中文翻译</a>。如果你对此问题非常感兴趣，请在Github问题追踪系统中<a href="https://github.com/dcmi/ldci/issues">发起一个问题</a>。</p>
 </li>
 <li>
-<p>至少能拼写出一次缩写。在关于关联数据的能力指标中常用的缩略语如 <em>OWL_和 _URI_只需要拼写出一次即可：_了解Web本体语言，OWL（2004），RDF词汇表中的属性和类，这些属性和类能够支持数据模型的表达和自动推理。</em>  </p>
-</li>
-<li>
-<p>应尽可能的包括各项技术的背景介绍。链接数据技术在过去的四分之一世纪里得到了很大的发展并将继续发展。了解当年的技术或概念的引入可以帮助到读者，例如： <em>万维网(1989)</em>, <em>HTTP (1991+)</em>, <em>URIs (1994)</em>, <em>OWL (2004)</em>, and <em>关联数据(2006)</em>.</p>
-</li>
-<li>
-<p>应包括足够的细节来描述一个领域“能力”的本质。能力和基准不需要像参考手册手册那样覆盖技术的所有特征。如果进行全方位的试验，CI很有可能将很难适应一些不能避免的改变，并且CI读起来会非常的枯燥乏味。</p>
-</li>
-<li>
-<p>需注意术语定义或使用中的歧义问题。例如， 一项“能力”中写道：<em>需要了解“ontology”有两种意思，一方面是指任意的RDF词汇表，但更常见的是指为特定领域设计的一组支持推理的OWL的类和属性</em>。</p>
-</li>
-<li>
-<p>扩大指标所涵盖的主题集合时要非常谨慎，同时谨记增加高水平的主题集群将会扩大整个指数的范围。如果提议增加新的高水平主题集群，则要考虑它们是否真正适合特定的能力指标的范围，或者可能意味着需要处于不同范围的另外一种能力指标（例如，侧重于知识组织系统的设计）。</p>
+<p><strong>DCMI命名空间政策是否涵盖了能力的URI？</strong> <a href="http://dublincore.org/documents/dcmi-namespace/">DCMI命名空间政策</a>列举了一些命名空间，这些命名空间的组织承诺保持命名空间的持久性和语义的稳定性。目前，所有的命名空间和PURL子域都在<a href="http://purl.org">purl.org</a>解析服务下进行管理。LD4PE项目一开始，<a href="http://asn.desire2learn.com">成就标准网络</a>就创建了关联数据能力指标中的“主题”和“能力”的URI，并进行管理。例如，主题“RDF识别”被URI <a href="http://asn.desire2learn.com/resources/S2696001">http://asn.desire2learn.com/resources/S2696001</a>标识。 DCMI为了扩展命名空间政策覆盖这些URI，它需要更好的了解ASN关于持久性等的政策，需要在它的控制下创建dublincore.org 或PURL URI。从根本上说，我们应该问问自己，识别的持久性和语义的稳定性对指标有多重要？答案取决于在实践中使用能力指标的程度。我们可以从区分主题(和主题集群)开始, 主题不经常变化，在元数据中可以用来作为宽泛的主题标目。 但是能力（和基准）会随着技术的发展迅速被创建或者取代。在LD4PE项目中，能力URI用来<a href="http://explore.dublincore.net/explore-learning-resources-by-competency/">标注可以通过能力进行检索的培训资料</a>. 这些资料中的博客文章等资料将会被取代或不可用。作为这些资料的标签的“能力”真的需要比所描述的资源本身具有更轻的持久性吗？如果你对这个问题非常感兴趣， 请在Github问题追踪系统中<a href="https://github.com/dcmi/ldci/issues">发起一个问题</a>。</p>
 </li>
 </ol>
               
             </div>
           </div>
           <footer>
-  
-    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
-      
-        <a href="../process/" class="btn btn-neutral float-right" title="How to Contribute">Next <span class="icon icon-circle-arrow-right"></span></a>
-      
-      
-        <a href="../structure/" class="btn btn-neutral" title="Structure of the Index"><span class="icon icon-circle-arrow-left"></span> Previous</a>
-      
-    </div>
   
 
   <hr/>
@@ -194,10 +145,6 @@
     <span class="rst-current-version" data-toggle="rst-current-version">
       
       
-        <span><a href="../structure/" style="color: #fcfcfc;">&laquo; Previous</a></span>
-      
-      
-        <span style="margin-left: 15px"><a href="../process/" style="color: #fcfcfc">Next &raquo;</a></span>
       
     </span>
 </div>
